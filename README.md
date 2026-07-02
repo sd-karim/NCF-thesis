@@ -3,6 +3,9 @@ Code and writeup of my Undergraduate thesis "EXHIBITION TO INSTITUTION," written
 
 Read the full thesis here: https://digitalcommons.ncf.edu/theses_etds/7012/
 
+View the slides used in my thesis defense/Baccalaureate exam: https://canva.link/5vtulshugvi9dk5
+- Note that the slides may feel incomplete without the actual presentation and discussion
+
 **Abstract**
 
 This thesis explores the relationship between acquisitions at The Museum of Modern Art
