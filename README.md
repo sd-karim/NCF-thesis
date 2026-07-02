@@ -1,8 +1,10 @@
 # NCF-thesis
 Code and writeup of my Undergraduate thesis "EXHIBITION TO INSTITUTION," written in partial fulfillment of my BA from New College of Florida in Spring of 2026.
+
 Read the full thesis here: https://digitalcommons.ncf.edu/theses_etds/7012/
 
 **Abstract**
+
 This thesis explores the relationship between acquisitions at The Museum of Modern Art
 (MoMA), and exhibitions at MoMA PS1 (formerly the independent exhibition space Project
 Studio 1, stationed in Long Island City’s repurposed schoolhouse Public School 1) . Particular
@@ -23,6 +25,7 @@ information on all works in their permanent collection as of June 2025. The PS1 
 history data was obtained from www.moma.org/calendar/exhibitions/history
 
 **File Descriptions**
+
 - 01Webscraping: Code used to "semi-scrape" PS1's exhibition history from MoMA's website. "Semi-scrape" refers to the need to compile all page HTMLs into a series of .txt files and import those into R before converting them to a vector of HTML files that I could use traditional webscraping methods on. This is different than regular webscraping, which is able to 'grab' the HTML of a page just given a url, which was not possible in this case. There are three separate .txt files for each scraping workflow (different workflow needed for exhibitions by multiple vs single artists), and this file demonstrates the workflow for one of each method. The .txt files are not included in this repository.
 - 02ExhibitionDepts: The "genre" of exhibition was a desirable predictor in this project, and for the exhibitions that had a description available, I tried multiple methods to automate the process of figuring out the "genre" using the text in the description. The three methods in this file were seeded Latent Dirichlet Allocation (LDA), and two methods that worked like a keyword search. For accuracy, all descriptions were assigned by hand in the end.
 - 03ArtistGender: Gender was unknown for a large majority of the artists at PS1, and this file outlines a simple method of estimating a gender score that would give us the confidence that an artist was Male or Female. This is the only file in the project that utilized GenAI, which was used only to sort names, and not to produce any code or writing that went into the actual thesis. 
