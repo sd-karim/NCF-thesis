@@ -1,5 +1,6 @@
 # NCF-thesis
 Code and writeup of my Undergraduate thesis "EXHIBITION TO INSTITUTION," written in partial fulfillment of my BA from New College of Florida in Spring of 2026.
+Read the full thesis here: https://digitalcommons.ncf.edu/theses_etds/7012/
 
 **Abstract**
 This thesis explores the relationship between acquisitions at The Museum of Modern Art
